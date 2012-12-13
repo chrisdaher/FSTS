@@ -1,0 +1,51 @@
+/* Main Event div positioning */
+#MainEventDiv{
+    float:left;
+    position: relative;
+    min-height:250px;
+    min-width:500px;
+}
+
+
+/*Event div components  min 450 600 450*/
+
+#div_Data{
+    float:left;
+    width:50%;
+    min-height:250px;
+}
+#div_Appointments{
+    float:right;
+    width:30%;
+    min-height:300px;
+}
+
+
+/* Data Div Components */ 
+#div_DataBox{
+    float: left;
+    position:relative;
+    top:20px;
+    width:200px;
+    height:20px;
+    margin: 0px auto;
+}
+.lbl_eventlabel{
+    position:relative;
+  color:gray;
+  font-size: 10pt;  
+}
+.lbl_eventinfo{
+    position:relative;
+    margin-left:10px;
+}
+
+/*Appointments div Components */
+#div_AppointmentsBox{
+    border:solid;
+    position:relative;
+    top:25px;
+    width:300px;
+    height:250px;
+    margin: 0px auto;
+}

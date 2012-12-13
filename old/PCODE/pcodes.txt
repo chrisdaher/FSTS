@@ -1,0 +1,39 @@
+H4G/Verdun
+H4H/Verdun
+H4J/Cartierville
+H4K/Cartierville
+H4L/St-Laurent
+H4M/St-Laurent
+H4N/St-Laurent
+H4P/C-D-N
+H4R/St-Laurent
+H4V/NDG
+H4W/Cote St-Luc
+H4X/Montréal West
+H5N/Ville Émard
+H6N/Montréal West
+H7C/St-Vincent de Paul
+H7E/St-Vincent de Paul
+H7G/Pont Viau (Laval)
+H7K/Auteuil
+H7M/Laval
+H7N/Laval
+H7P/Fabreville
+H7R/Laval West
+H7S/Chomedey N_E
+H7T/Chomedey N-W
+H7V/Chomedey East
+H7W/Chomedey Sud
+H8L/St-Laurent
+H8N/Lasalle
+H8P/Lasalle
+H8R/Lasalle
+H8S/Lachine
+H8T/Lachine
+H8Y/Roxboro
+H8Z/Pierrefonds
+H9A/Dollard-des-Ormeaux
+H9B/Dollard-des-Ormeaux
+H9H/Kirkland
+H9J/Kirkland
+H9S/Dorval

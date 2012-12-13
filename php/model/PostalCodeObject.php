@@ -1,0 +1,1 @@
+<?php	class PostalCodeObject{		var $pcode;		var $city;		var $province;		function __construct($pcode, $city, $province){				$this->pcode = $pcode;				$this->city = $city;				$this->province = $province;		}	}?>

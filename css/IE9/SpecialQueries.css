@@ -1,0 +1,79 @@
+@import url("Components/MenuBar.css");
+
+*:focus{
+    outline:none;
+}
+.btn_execute, .btn_clear{
+    font-size:10pt !important;
+}
+.btn_help{
+    font-size:10pt !important;
+}
+body{
+    
+    height:auto;
+    top:0px;
+    left:0px;
+    margin-top:0px;
+    margin-right: 0px;
+    margin-left:0px;
+    margin-bottom: 0px;
+
+}
+.table_column1{
+    width:20%;   
+}
+.table_column2{
+    width:100%;   
+}
+.accordion{
+    font-size:10pt !important;
+}
+.Wrapper , .Wrapper table{
+    position:relative;
+    height:100%;
+    width:100%;
+}
+.MainDisplay{
+    position:relative;
+    width:100%;
+    min-width:200px;
+    min-height: 550px;
+    border:none;
+    margin: 0px 0px 0px 0px;
+    top:90px;
+    left:0px;
+}
+
+.page{
+    position:relative;
+    height:100%;
+    width:100%;
+    top:0px;
+}
+.MainDisplay{
+    position:relative;
+    display:block;
+    top:40px;
+    height:100%;
+    width:100%;
+}
+.div_sQuery{
+	width:auto;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:20px;
+}
+.input_sQuery{
+	width:100%;
+	height:100%;
+    min-height:200px;
+}
+.div_qResult{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:70px;
+}
+.report_param_container{
+    margin-right:0px !important;   
+}

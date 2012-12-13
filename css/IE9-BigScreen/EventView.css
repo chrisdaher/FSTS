@@ -1,0 +1,6 @@
+@import url("Components/MenuBar.css");
+
+#thescheduler{
+    position:relative;
+    top:40px;
+}

@@ -1,0 +1,105 @@
+@import url("FileEventInfo.css");
+.divlbl{
+    position:absolute;
+    top:10px;
+    left:40px;
+    font-size: 10pt;
+    color:gray;
+    text-align:right;
+    float:right;
+    height:25px;
+    width:100px;
+}
+
+.divinfo input{
+    position:relative;
+    left:150px;
+    top:10px;
+    margin-bottom: 15px;
+    text-align: left;
+    height:25px;
+    float:left;
+}
+.divinfo select{
+    position:relative;
+    left:150px;
+    top:5px;
+    width:150px;
+    margin-bottom: 15px;
+    text-align: left;
+    height:30px;
+    float:left;
+}
+
+.divinfo label{
+    position:relative;
+    display:block;
+    left:150px;
+    top:10px;
+    font-size:12pt;
+    margin-right: 5px;
+    text-align: left;
+    height:25px;
+    float:left;
+}
+
+
+.divContainer{
+    position:relative;
+    top:20px;
+    margin-top:15px;
+    height:40px;
+    width: 500px;
+}
+
+#div_City label{
+    margin-left: 10px;
+}
+#div_Province label{
+        left:0px;
+        top:50px;
+}
+#div_City label{
+        margin-left:10px;
+        left:0px;
+        top:50px;
+}
+
+#div_Adress{
+    height:80px;
+    width:600px;
+}
+
+#div_Notes{
+    height:80px;
+}
+#input_PostalCode{
+	margin-left:20px;
+}
+
+#addr_postal{
+	left:30px !important;
+}
+.addr_label{
+    position:relative !important;
+    display:block !important;
+    left:60px !important;
+    top:40px !important;
+    margin-right: 0px !important;
+	margin-left:0px !important;
+    text-align: center !important;
+    height:10px !important;
+	font-size:7pt !important;
+    float:left !important;
+    color:rgb(190,190,190);
+}
+.warning{
+    border-color:#FF0000;
+    border-width:2px;
+    border-style:solid;
+}
+.notice{
+    border-color:#FFAF00;
+    border-width:2px;
+    border-style:solid;
+}

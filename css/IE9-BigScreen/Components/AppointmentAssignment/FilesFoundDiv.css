@@ -1,0 +1,170 @@
+#FilesFoundDiv{
+    float:left;
+    position: relative;
+    height:auto;
+    min-height:300px;
+    min-width:800px;
+    width:90%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+
+.div_FileBlockDisabled{
+        position:relative;
+    text-align:center;
+    margin-left:50px;
+    margin-top: 25px;
+    float:left;
+    width:200px;
+    height:50px;
+    font-size:8pt;
+    
+    border: 0.5px solid #CCCCCC;
+    /*background-color:blue; */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+}
+.div_FileBlock{
+    position:relative;
+    text-align:center;
+    margin-left:50px;
+    margin-top: 25px;
+    float:left;
+    width:200px;
+    height:60px;
+    font-size:8pt;
+    
+	overflow:hidden;
+	
+    border: 0.5px solid #CCCCCC;
+    background-color: rgb(229,229,229);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+
+}
+
+
+.GalleryContainer .ui-draggable-dragging {
+  -moz-box-shadow: 10 10 10em rgba(0, 0, 0, .8) !important;
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) !important;
+  box-shadow: 10 10 10em rgba(10, 10, 10, 10) !important;
+}
+
+#FilesFoundDiv .added{
+   
+   /*background: rgb(60,60,120);*/
+   background: gray;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0em rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0em rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0em rgba(0, 0, 0, 0);
+      cursor:default !important;
+    filter: Alpha(Opacity=80);
+    opacity:0.80;
+}
+
+/* Next and Previous buttons (Displayed only if there are more than a certain number of found files)*/
+#div_btnContainer{
+    position: relative;
+    float:left;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    min-width:800px;
+}
+#lbl_page{
+    position:relative;
+    left:40%;
+
+}
+#btn_prevFileSet{
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+#btn_nextFileSet{
+    position:relative;
+    float:right;
+    top:0px;
+    right:0px;
+}
+.HiddenGallery{
+    display:none;
+}
+.GalleryContainer{
+    position:relative;
+    float:left;
+}
+
+.GalleryPage :hover{
+    cursor:pointer;
+    border-color: gray;
+    /*background: rgb(60,120,216);*/ 
+      -moz-box-shadow: 0 0 0.5em rgba(0, 0, 0, 10);
+    -webkit-box-shadow: 0 0 0.5em rgba(0, 0, 0, 10);
+     box-shadow: 0 0 0.5em rgba(0, 0, 0, 10);   
+    
+}
+.GalleryContainer :hover .div_FileBlock div{
+    cursor:pointer;
+    /*background: rgb(60,120,216);*/ 
+      -moz-box-shadow: 0 0 0em rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0em rgba(0, 0, 0, 0);
+     box-shadow: 0 0 0em rgba(0, 0, 0, 0);   
+    
+}
+
+.GalleryContainer :hover  .div_FileBlock label{
+    cursor:pointer;
+    border-color: gray;
+    /*background: rgb(60,120,216);*/ 
+      -moz-box-shadow: 0 0 0em rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0em rgba(0, 0, 0, 0);
+     box-shadow: 0 0 0em rgba(0, 0, 0, 0);   
+    
+}
+.GalleryPage  :active{
+    background: rgb(60,120,216);
+}
+
+.selectedFile{
+    background-color: rgb(60,120,216);
+}
+.results_found{
+	font-weight:bold;
+    
+}
+.filefound_id{
+    width: 100%;
+    float:left;
+    position:relative;
+}
+.filefound_name{
+    width: 100%;
+    float:left;
+    position:relative;
+}
+.filefound_adress{
+    width: 100%;
+    float:left;
+    position:relative;
+}
+.match{
+    font-weight:bold;
+}

@@ -1,0 +1,134 @@
+#div_MenuBar{
+    position: fixed;
+    left:0px;
+    top: 0px;
+    width:100%;
+    height: 40px;
+    border:none;
+    margin:0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px;
+    background-color:rgb(67,67,67) ;
+    z-index:1000;
+    }
+#btn_Home{
+    position:relative;
+    height:30px;
+    left:5px;
+    width: 100px;
+    background:none;
+    border:none;
+    padding: 0em;
+    margin: 0em 0em 0em 0em;
+    color:white;
+    font-size:8pt;
+    line-height:30px;
+}
+#btn_Home :hover{
+    background-image: url("../../../Images/buttonClicked.jpg");
+}
+
+#btn_Calender{
+    position:relative;
+    height:30px;
+    left:5px;
+    width: 100px;
+    background:none;
+    border:none;
+    padding: 0em;
+    margin: 0em 0em 0em 0em;
+    color:white;
+    font-size:8pt;
+    line-height:30px;
+}
+#btn_Calender :hover{
+    background-image: url("../../../Images/buttonClicked.jpg");
+}
+#btn_Reporting{
+    position:relative;
+    height:30px;
+    left:5px;
+    width: 100px;
+    background:none;
+    border:none;
+    padding: 0em;
+    margin: 0em 0em 0em 0em;
+    color:white;
+    font-size:8pt;
+    line-height:30px;
+}
+#btn_Reporting :hover{
+    background-image: url("../../../Images/buttonClicked.jpg");
+}
+#btn_Admin{
+    position:relative;
+    height:30px;
+    left:5px;
+    width: 100px;
+    border:none;
+    padding: 0em;
+    background:none;
+    margin: 0em 0em 0em 0em;
+    color:white;
+    font-size:8pt;
+    line-height:30px;
+}
+#btn_Admin :hover{
+    background-image: url("../../../Images/buttonClicked.jpg");
+}
+
+#btn_spQuery{
+    position:relative;
+    height:30px;
+    left:5px;
+    width: 100px;
+    border:none;
+    padding: 0em;
+    background:none;
+    margin: 0em 0em 0em 0em;
+    color:white;
+    font-size:8pt;
+    line-height:30px;
+}
+#btn_spQuery :hover{
+    background-image: url("../../../Images/buttonClicked.jpg");
+}
+
+#flyout{
+    position: relative;
+    height:30px;
+    float:right;
+    left:-15px;
+    width: 100px;
+    border:none;
+    padding: 0em;
+    background:none;
+    margin: 0em 0em 0em 0em;
+    color:white; 
+    text-decoration:none;
+    font-size:8pt;
+    line-height: 30px;
+}
+#flyout label{
+    position:relative;
+    left:30px;
+}
+#flyout :hover{
+    /*background-image: url("../../Images/buttonClicked.jpg");*/
+}
+#btn_Logout{
+    position: relative;
+    height:30px;
+    float:right;
+    left:-15px;
+    width: 50px;
+    border:none;
+    padding: 0em;
+    background:none;
+    margin: 0em 0em 0em 0em;
+    color:gray;
+    font-size:7pt;
+    line-height: 30px;
+}
+#btn_Logout :hover{
+    background-image: url("../../../Images/buttonClicked.jpg");
+}

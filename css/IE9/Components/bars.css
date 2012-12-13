@@ -1,0 +1,43 @@
+table{
+    border:none;
+    margin:0px 0px 0px 0px;
+}
+tr{
+    border:none;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+td{
+    border:none;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+tbody{
+    top:-6px !important;
+    border:none;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+.widget_container_left{
+    height:90%;
+    border:none;
+    min-width:401px;
+    width:30%;
+    
+}
+.widget_container_center{
+    height:90%;
+    border:none;
+    min-width:400px;
+    width:50%;
+}
+.widget_container_right{
+    height:90%;
+    border:none;
+    width:19%;
+    min-width:200px; 
+}
+.widget_container_right button{
+    float:right;
+    margin:5px;
+}

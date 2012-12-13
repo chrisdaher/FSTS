@@ -1,0 +1,1 @@
+<?phpinclude_once("SearchHelper.php");echo json_encode($models);?>

@@ -1,0 +1,87 @@
+@import url("Components/MenuBar.css");
+@import url("Components/OptionBar.css");
+@import url("Components/AppointmentAssignment/EventDiv.css");
+@import url("Components/AppointmentAssignment/CalenderDiv.css");
+@import url("Components/AppointmentAssignment/SeparationDiv.css");
+@import url("Components/AppointmentAssignment/FilesFoundDiv.css");
+@import url("Components/SearchGroup.css");
+*:focus{
+    outline:none;
+}
+body{
+    background-color:#EFEFEF;
+    height:auto;
+    top:0px;
+    left:0px;
+    margin-top:0px;
+    margin-right: 0px;
+    margin-left:0px;
+    margin-bottom: 0px;
+}
+.Wrapper, .Wrapper table{
+    position:relative;
+    width:100%;
+}
+#MainSearchDiv{
+    margin: auto;
+    position:relative;
+    width:100%;
+    min-width:900px;
+    height:0px;
+}
+
+#div_MainDiv{
+    position:absolute;
+    width:100%;
+    min-width:1200px;
+    min-height: 550px;
+    border:none;
+    margin: 0px 0px 0px 0px;
+    top:100px;
+    left:0px;
+}
+.MainDisplay{
+    position:absolute;
+    width:100%;
+    min-width:1200px;
+    min-height: 550px;
+    border:0 0px 0 0px;
+    margin: 0px 0px 0px 0px;
+    top:100px;
+    left:0px;
+}
+#div_Column1{
+    float:left;
+    position:relative;
+    height:100%;
+    width:30%;
+    min-width:300px;
+}
+#div_Column2{
+    float:left;
+    position:relative;
+    width:70%;
+    height:100%;
+    min-width:800px;
+}
+.div_searchAttendance{
+    width:200px;
+    float:right;
+}
+.div_searchAttendance .div_SearchGroup{
+    padding-top:0px !important;
+    height:50px !important;
+    min-width:100px !important;
+    width:100%;
+}
+.appInfo_separator{
+    float:left;
+    position:relative;
+    width:200px;
+}
+.div_searchAttendance .input_Search{
+    width:100%;
+}
+#appointmentFilesInfo{
+    float:left;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>DHTMLX Package</title>
+	<script src="dhtmlxDataView/codebase/dhtmlxdataview.js" type="text/javascript"></script>
+	<script src="dhtmlxDataView/codebase/dhtmlxdataprocessor.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="STYLESHEET" type="text/css" href="dhtmlxDataView/codebase/dhtmlxdataview.css">
+</head>
+
+<body>
+
+<div id="data_container"  style="width:596px;height:396px "></div>
+<script>
+        view = new dhtmlXDataView({
+		container:"data_container",
+		type:{
+	            template:"#first_name#  #last_name#<br/>#medicard#",
+				height:40,
+	        },
+			
+    });
+
+	
+		view.load("dhtmlxDataView/serverhandler/dataViewConnector.php");
+		
+		var dp = new dataProcessor("dhtmlxDataView/serverhandler/dataViewConnector.php");
+		dp.init(view);
+	
+	 view.attachEvent("onItemClick", function (id, ev, html){
+       alert(id);
+       return true;
+		});
+	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+span.FAIL
+{
+	background-color:red;
+}
+span.OK{
+	background-color:green;
+
+	
+}
+
+span.PER{
+	background-color:yellow;
+}

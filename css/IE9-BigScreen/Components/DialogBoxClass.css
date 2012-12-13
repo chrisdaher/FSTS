@@ -1,0 +1,10 @@
+.noticeTip{
+    color:yellow;
+    
+}
+.warningTip{
+    top:2px;
+    left:2px;
+    color:red;
+    position:relative;
+}

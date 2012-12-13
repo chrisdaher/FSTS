@@ -1,0 +1,44 @@
+#div_AppDiv{
+    float:left;
+    position:relative;
+    margin-left:100px;
+    min-width:400px;
+    top:0px;
+}
+.HistoryTitle{
+    text-align:center;
+}
+.HistoryTitle label{
+       font-size:16pt;
+}
+.table_AppHis td{
+    width:100px;
+    height:30px;
+    text-align:center;
+    font-size:12pt;
+}
+
+.UpcomingTitle{
+    margin-top: 50px;
+    text-align:center;
+}
+.UpcomingTitle label{
+       font-size:16pt;
+}
+.table_Upcoming td{
+    width:100px;
+    height:30px;
+    text-align:center;
+    font-size:12pt;
+}
+
+.registerToEvent{
+    height:20px;
+    width:20px;    
+}
+.registerToEvent span{
+    margin-left:1px !important;
+    margin-top:1px !important; 
+    left:0px !important;
+    top:0px !important;   
+}

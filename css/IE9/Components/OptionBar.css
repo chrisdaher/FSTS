@@ -1,0 +1,141 @@
+@import url("Components/ButtonGroup.css");
+@import url("bars.css");
+
+/*Option Bar*/
+#div_optionBar{
+    position:fixed;
+    left:0px;
+    top:40px;
+    height:55px;
+    width:100%;
+    background-color:rgb(204,204,204);
+    border:none;
+    margin:0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px;
+    z-index:999;
+}
+
+
+#div_FileIdNumber{
+    top:10px;
+    width:150px;
+    height: 40px;
+    position:relative;
+    left:120px;
+}
+
+#label_FileIdNumber{
+    font-size:  20pt;
+}
+
+
+#input_submit{
+    position:absolute;
+    visibility:hidden;
+    top:0px;
+    left:0px;
+}
+
+td{
+    margin:0px 0px 0px 0px;
+}
+
+#ButtonGroup{
+    position:absolute;
+    top:5px;
+    left:550px;
+    width:500px;
+    height:50px;
+}
+
+#image_flag{
+    position:absolute;
+    left:350px;
+    top:15px;
+    width:20px;
+    height:20px;
+}
+#EditButton{
+    position:absolute;
+    top:5px;
+    float:right;
+    right:20px;
+    height:50px;
+}
+
+/* Fixes for the Search bar */
+#AA_div_search{
+    top:0px;
+    
+    position:relative;
+    margin-top:0px;
+}
+#btn_Search{
+    top:0px !important;
+}
+.div_SearchGroup{
+    left:0px !important;
+    width:70%;
+    /*min-width:280px !important;*/
+    padding-top: 10px;
+    float:left;
+    top:0px !important;
+    height:50px !important;
+    position:relative !important;
+}
+#input_Search{
+    position:relative;
+    float:left;
+    left:0px;
+    width:100% !important;
+}
+#div_Search{
+    background-color: rgb(229, 229, 229);
+    top:0px !important;
+    position:relative;
+    float:left;
+    left:0px;
+    /*width:85% !important;*/
+}
+#AA_div_search #div_Search{
+    width:85% !important;
+}
+#btn_Attendance{
+    float:left;
+}
+
+#btn_Execute{
+    font-size:12pt;
+}
+/* Admin Page CSS */
+.div_adminLinks{
+    width : 100%;
+    height: 100%;
+    font-size:12pt;
+	
+}
+.link_adminLink{
+	color: blue !important;
+	font-weight:bold;
+}
+
+.link_adminLink:hover{
+	color: black !important;
+}
+
+.logoImg{
+	background:url("../../../Images/LogoSmall.png") no-repeat;
+	position: relative;
+	width: 50px;
+	left:5%;
+	height: 58px;
+	float: left;
+}
+.logoImgAppointment{
+	background:url("../../../Images/LogoSmall.png") no-repeat;
+	position: relative;
+	width: 50px;
+	left:5%;
+	height: 58px;
+	float: left;
+}
